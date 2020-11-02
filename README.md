@@ -7,6 +7,10 @@
 - Request a review on your branch when you are done working on it
 - Responsible to merge in PRs: Andor Davoti
 
+## Code structure
+
+To achieve a sticky footer you need to use the div container with class content to add content to the page outside of the navbar and footer.
+
 ## Colors:
 
 - White: #fff
