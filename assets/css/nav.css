@@ -17,9 +17,52 @@ nav .links {
   justify-content: space-evenly;
 }
 
-nav .links a {
+nav .link a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+nav .link a {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+nav .link a:before,
+nav .link a:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  width: 0px;
+  height: 5px;
+  margin: 5px 0 0;
+  transition: all ease-in-out;
+  transition-duration: 0.4s;
+  background-color: #fff;
+}
+
+nav .link a:before {
+  left: 50%;
+}
+nav .link a:after {
+  right: 50%;
+}
+
+nav .link:hover {
+  cursor: pointer;
+}
+
+nav .link:hover a:before,
+nav .link:hover a:after {
+  width: 100%;
+  opacity: 1;
+}
+
+nav .link:hover a:before,
+nav .link:hover a:after {
+  width: 50%;
 }
