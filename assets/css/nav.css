@@ -1,9 +1,9 @@
 nav {
   height: 10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: #42746c;
+  background-color: #2f514b;
 }
 
 nav img {
