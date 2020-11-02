@@ -15,3 +15,7 @@ nav .links {
   display: flex;
   justify-content: space-evenly;
 }
+
+nav .links a {
+  text-decoration: none;
+}
