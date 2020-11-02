@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d2ea9b;
+  background-color: #42746c;
 }
 
 nav img {
@@ -19,7 +19,7 @@ nav .links {
 
 nav .links a {
   text-decoration: none;
-  color: #18455a;
+  color: #eaeae6;
   font-weight: bold;
   font-size: 1.25rem;
 }

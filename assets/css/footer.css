@@ -3,5 +3,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d2ea9b;
+  background-color: #42746c;
+  color: #eaeae6;
 }
