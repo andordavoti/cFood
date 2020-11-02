@@ -9,8 +9,10 @@
 
 ## Colors:
 
-- Light green: #D2EA9B
-- Lighter green: #E7F0D2
-- Dark green/blue (text): #18455A
+- White: #EAEAE6
+- Light green: #14DCB1
+- Dark green: #42746C
+- Dark grey/green: #6A8989
+- Black (text): #222224
 
 Website URL: https://andordavoti.github.io/DAFE1200-final-project/
