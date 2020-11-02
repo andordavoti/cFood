@@ -3,10 +3,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #d2ea9b;
 }
 
 nav img {
-  height: 10vh;
+  height: 8vh;
 }
 
 nav .links {
@@ -18,4 +19,5 @@ nav .links {
 
 nav .links a {
   text-decoration: none;
+  color: black;
 }
