@@ -11,6 +11,6 @@
 
 - Light green: #D2EA9B
 - Lighter green: #E7F0D2
-- Dark green/blue: #18455A
+- Dark green/blue (text): #18455A
 
 Website URL: ...
