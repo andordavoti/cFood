@@ -9,7 +9,8 @@
 
 ## Colors:
 
-- White: #EAEAE6
+- White: #fff
+- White alternative: #EAEAE6
 - Light green: #14DCB1
 - Dark green: #42746C
 - Dark grey/green: #6A8989

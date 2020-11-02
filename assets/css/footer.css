@@ -4,5 +4,6 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #42746c;
-  color: #eaeae6;
+  color: #fff;
+  font-weight: bold;
 }
