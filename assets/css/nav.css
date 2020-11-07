@@ -101,15 +101,13 @@ nav .link:hover a:after {
     -webkit-clip-path: circle(150vh at 90% -10%);
     pointer-events: all;
   }
-  .landing {
-    flex-direction: column;
-  }
+
   nav .links .link {
     z-index: 2;
     opacity: 0;
   }
   nav .links .link a {
-    font-size: 25px;
+    font-size: 1.75rem;
   }
   nav .links .link:nth-child(1) {
     transition: all 0.5s ease-in 0.2s;
@@ -123,8 +121,9 @@ nav .link:hover a:after {
   nav .links .link:nth-child(4) {
     transition: all 0.5s ease-in 0.8s;
   }
-  .link.fade {
-    opacity: 1 !important;
+
+  nav .links .fade {
+    opacity: 1;
   }
 
   .hamburger {
