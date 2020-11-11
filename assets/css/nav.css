@@ -5,12 +5,13 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: #2f514b;
+  color: #fff;
 }
 
 nav img {
   margin-left: 20px;
   height: 8vh;
-  z-index: 2;
+  z-index: 3;
 }
 
 nav .links {
@@ -92,9 +93,9 @@ nav .link:hover a:after {
     -webkit-clip-path: circle(100px at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
-
     align-items: center;
     justify-content: space-evenly;
+    z-index: 2;
   }
   nav .open {
     clip-path: circle(150vh at 90% -10%);
