@@ -12,6 +12,11 @@ nav img {
   margin-left: 20px;
   height: 8vh;
   z-index: 3;
+  transition: all ease-in-out 0.4s;
+}
+
+nav img:hover {
+  transform: translateX(10px);
 }
 
 nav .links {
@@ -53,6 +58,7 @@ nav .link a:after {
 nav .link a:before {
   left: 50%;
 }
+
 nav .link a:after {
   right: 50%;
 }
