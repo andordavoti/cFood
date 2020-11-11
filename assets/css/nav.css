@@ -62,13 +62,17 @@ nav .link:hover {
 }
 
 nav .link:hover a:before,
-nav .link:hover a:after {
+nav .link:hover a:after,
+nav .link .active:before,
+nav .link .active:after {
   width: 100%;
   opacity: 1;
 }
 
 nav .link:hover a:before,
-nav .link:hover a:after {
+nav .link:hover a:after,
+nav .link .active:before,
+nav .link .active:after {
   width: 50%;
 }
 
