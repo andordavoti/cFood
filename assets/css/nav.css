@@ -11,8 +11,11 @@ nav {
 nav img {
   margin-left: 20px;
   height: 8vh;
-  z-index: 3;
   transition: all ease-in-out 0.4s;
+}
+
+nav a {
+  z-index: 3;
 }
 
 nav img:hover {
