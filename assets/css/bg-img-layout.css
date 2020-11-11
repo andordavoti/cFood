@@ -11,6 +11,14 @@
   background-image: url("../img/solution-bg.jpg");
 }
 
+.challenge .fs-bg-title {
+  max-width: 675px;
+}
+
+.solution .fs-bg-title {
+  max-width: 830px;
+}
+
 .fs-bg-img {
   width: 100vw;
   height: 90vh;
@@ -21,8 +29,8 @@
 }
 
 .fs-bg-title {
-  background-color: rgb(47, 81, 75);
-  background-color: rgba(0, 0, 0, 0.55); /* green: rgb(47, 81, 75, 0.8) */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.55);
   border-radius: 25px;
   padding: 10px;
   text-align: center;
@@ -32,7 +40,6 @@
   color: white;
   transform: translate(-50%, -50%);
   line-height: 35px;
-  max-width: 675px;
 }
 
 @media screen and (max-width: 768px) {
