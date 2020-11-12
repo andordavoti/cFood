@@ -16,6 +16,9 @@
     width: 100%;
     clip-path: none;
     -webkit-clip-path: none;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
     transition: all 1s ease-out;
     pointer-events: all;
     flex-direction: row;

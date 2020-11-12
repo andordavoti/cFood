@@ -26,7 +26,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(60%);
-  transition: filter ease-in-out 0.4s;
+  -webkit-transition: filter 0.4s ease-in-out;
+  -moz-transition: filter 0.4s ease-in-out;
+  -o-transition: filter 0.4s ease-in-out;
+  transition: filter 0.4s ease-in-out;
 }
 
 .fs-bg-title {
@@ -44,7 +47,10 @@
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   line-height: 35px;
-  transition: opacity ease-in-out 0.4s;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .fs-bg-scroll-down {
@@ -62,7 +68,10 @@
   padding: 10px;
   cursor: pointer;
   text-decoration: none;
-  transition: all ease-in-out 0.4s;
+  -webkit-transition: margin-top 0.4s ease-in-out;
+  -moz-transition: margin-top 0.4s ease-in-out;
+  -o-transition: margin-top 0.4s ease-in-out;
+  transition: margin-top 0.4s ease-in-out;
 }
 
 .fs-bg-scroll-down:hover {
