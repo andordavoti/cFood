@@ -1,11 +1,14 @@
 nav {
   padding-right: 20px;
   height: 10vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #2f514b;
   color: #fff;
+  position: fixed;
+  z-index: 3;
 }
 
 nav img {
@@ -90,12 +93,8 @@ nav .link .active:after {
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    position: relative;
-  }
-
   nav .links {
-    position: absolute;
+    position: fixed;
     top: 0;
     background: #2f514b;
     height: 100vh;

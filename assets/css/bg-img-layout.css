@@ -1,6 +1,6 @@
 .fs-bg-container {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 
 .challenge .fs-bg-img {
@@ -21,7 +21,7 @@
 
 .fs-bg-img {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
