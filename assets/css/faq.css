@@ -1,3 +1,4 @@
+
 .faq{
     text-align: center;
     padding: 20px;
@@ -52,15 +53,13 @@
   
   .panel {
     padding: 18px 18px;
-    display: none;
+
     background-color: whitesmoke;
     overflow: hidden;
     font-size: 15px;
   }
 
-  p {
-      font-size: 14px
-      color: #222224;
-  }
+
+
 
 
