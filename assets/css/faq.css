@@ -48,6 +48,18 @@
 .active:after {
   content: "\2212";
 }
+  }
+  
+  .panel {
+    padding: 18px 18px;
+
+    background-color: whitesmoke;
+    overflow: hidden;
+    font-size: 15px;
+  }
+
+
+
 
 .panel {
   padding: 18px 18px;
