@@ -76,6 +76,7 @@
 
 .fs-bg-scroll-down:hover {
   margin-top: 10px;
+  background: #000;
 }
 
 .fs-bg-scroll-down p {
