@@ -1,3 +1,14 @@
+/* FAQ */
+.panel {
+  max-height: 10vh;
+  padding: 18px 18px;
+}
+
+.accordion:after {
+  content: "";
+}
+
+/* NAV */
 @media screen and (max-width: 768px) {
   nav {
     padding-right: 0;
