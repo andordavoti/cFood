@@ -3,6 +3,11 @@
   padding: 20px;
 }
 
+p {
+  font-size: 14px;
+  color: #222224;
+}
+
 .faqdropdowncontent {
   padding: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -17,9 +22,20 @@
   width: 100%;
   border: none;
   text-align: left;
+  outline: none;
   font-size: 18px;
   font-weight: bold;
+  transition: 0.4s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.active,
+.accordion:hover {
+  background-color: whitesmoke;
+}
+
+.active:after {
+  content: "\2212";
 }
 
 .accordion:after {
@@ -36,16 +52,10 @@
   font-size: 15px;
 }
 
-.panel p {
-  font-size: 14px;
-  color: #222224;
-}
-
-.active,
-.accordion:hover {
-  background-color: whitesmoke;
-}
-
-.active:after {
-  content: "\2212";
+@media screen and (max-width: 800px) {
+  .faqdropdowncontent {
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 }
