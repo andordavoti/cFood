@@ -4,10 +4,10 @@ const scrollEl = document.querySelector(".fs-bg-scroll-down");
 
 scrollEl.addEventListener("mouseenter", () => {
   titleEl.style.opacity = 0;
-  imgEl.style.filter = "brightness(50%) blur(5px)";
+  imgEl.style.filter = "brightness(30%)";
 });
 
 scrollEl.addEventListener("mouseleave", () => {
   titleEl.style.opacity = 1;
-  imgEl.style.filter = "brightness(60%) blur(0px)";
+  imgEl.style.filter = "brightness(60%)";
 });
