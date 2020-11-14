@@ -3,7 +3,7 @@ const panel = document.querySelectorAll(".panel");
 
 const closeAllPanels = () => {
   panel.forEach((element) => {
-    element.style.display = "none";
+    element.classList.add("panel-closed");
   });
 
   accordion.forEach((element) => {
@@ -15,13 +15,13 @@ for (let i = 0; i < accordion.length; i++) {
   accordion[i].addEventListener("click", function () {
     const currentPanel = this.nextElementSibling;
 
-    if (currentPanel.style.display === "block") {
-      currentPanel.style.display = "none";
-      this.classList.remove("active");
-    } else {
+    if (currentPanel.className.includes("panel-closed")) {
       closeAllPanels();
       this.classList.add("active");
-      currentPanel.style.display = "block";
+      currentPanel.classList.remove("panel-closed");
+    } else {
+      currentPanel.classList.add("panel-closed");
+      this.classList.remove("active");
     }
   });
 }

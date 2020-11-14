@@ -4,11 +4,15 @@
 }
 
 .faqdropdowncontent {
-  padding: 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .accordion {
+  outline: 0;
   background-color: white;
   color: #222224;
   cursor: pointer;
@@ -43,6 +47,18 @@
   padding: 18px 18px;
   background-color: whitesmoke;
   font-size: 15px;
+  display: block;
+  overflow: hidden;
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.panel-closed {
+  padding: 0;
+  height: 0;
 }
 
 .panel p {
