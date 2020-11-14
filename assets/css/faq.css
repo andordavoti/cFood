@@ -48,6 +48,7 @@
 }
 
 .panel {
+  max-height: 10vh;
   padding: 18px 18px;
   background-color: whitesmoke;
   font-size: 15px;
@@ -62,7 +63,7 @@
 
 .panel-closed {
   padding: 0 18px;
-  height: 0;
+  max-height: 0;
 }
 
 .panel p {
