@@ -3,17 +3,14 @@
   padding: 20px;
 }
 
+p {
+  font-size: 14px;
+  color: #222224;
+}
+
 .faqdropdowncontent {
   padding: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-@media screen and (max-width: 800px) {
-  .faqdropdowncontent {
-    width: 100%;
-    padding: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
 }
 
 .accordion {
@@ -37,6 +34,10 @@
   background-color: whitesmoke;
 }
 
+.active:after {
+  content: "\2212";
+}
+
 .accordion:after {
   content: "\002B";
   color: #42746c;
@@ -45,30 +46,16 @@
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2212";
-}
-  }
-  
-  .panel {
-    padding: 18px 18px;
-
-    background-color: whitesmoke;
-    overflow: hidden;
-    font-size: 15px;
-  }
-
-
-
-
 .panel {
   padding: 18px 18px;
   background-color: whitesmoke;
-  overflow: hidden;
   font-size: 15px;
 }
 
-p {
-  font-size: 14px;
-  color: #222224;
+@media screen and (max-width: 800px) {
+  .faqdropdowncontent {
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 }
