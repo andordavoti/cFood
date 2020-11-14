@@ -57,7 +57,7 @@
 }
 
 .panel-closed {
-  padding: 0;
+  padding: 0 18px;
   height: 0;
 }
 
