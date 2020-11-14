@@ -48,8 +48,8 @@
 }
 
 .panel {
-  max-height: 10vh;
-  padding: 18px 18px;
+  padding: 0 18px;
+  max-height: 0;
   background-color: whitesmoke;
   font-size: 15px;
   display: block;
@@ -61,9 +61,9 @@
   transition: all 0.25s ease-in-out;
 }
 
-.panel-closed {
-  padding: 0 18px;
-  max-height: 0;
+.panel-open {
+  max-height: 10vh;
+  padding: 18px 18px;
 }
 
 .panel p {
