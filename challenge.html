@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cFood</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript-nav.css" />
+    </noscript>
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/bg-img-layout.css" />
+    <link rel="stylesheet" href="assets/css/paragraph-with-title.css" />
+    <link rel="stylesheet" href="assets/css/bulleted-list-layout.css" />
+    <link rel="stylesheet" href="assets/css/button.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"
+        ><img class="nav-logo" src="assets/img/nav-logo.png" alt="nav logo"
+      /></a>
+
+      <div class="links">
+        <div class="link">
+          <a class="active" href="challenge.html">Utfordring</a>
+        </div>
+        <div class="link">
+          <a href="solution.html">Løsning</a>
+        </div>
+
+        <div class="link">
+          <a href=""><img src="assets/img/english.png" alt="english" /></a>
+        </div>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <div class="fs-bg-container challenge">
+      <div class="fs-bg-img"></div>
+      <h2 class="fs-bg-title">
+        "Tilgang til nok, trygg og sunn mat som produseres på en bærekraftig
+        måte, er i dag en global utfordring." [1]
+      </h2>
+      <a href="#scroll" class="fs-bg-scroll-down">
+        <p>Scroll ned</p>
+        <img src="assets/img/arrow-down.png" alt="arrow down" />
+      </a>
+    </div>
+
+    <div id="scroll"></div>
+
+    <div class="paragraph-with-title">
+      <h1>Utfordring</h1>
+      <p>
+        Utviklingen av cFood er inspirert av de store utfordringene knyttet til
+        temaet
+        <span class="highlighted">bærekraftig konsum og produksjon</span>, som
+        igjen er tett forbundet med klimaendringer, liv i havet og liv på land.
+        Her er hovedutfordringene til problemet som cFood kan bidra til å løse:
+      </p>
+    </div>
+
+    <div class="bulleted-list-w-img-container">
+      <ul class="main-list">
+        <li class="main-bullet top-bullet">
+          Matindustrien er en enorm aktør og på verdensbasis står den for:
+        </li>
+        <li class="remove-bullet">
+          <ul class="nested-list">
+            <li>70 % av det totale vannforbruket [2]</li>
+            <li>
+              Matproduksjon tar opp halvparten av dyrkbar mark på jordens
+              overflate, og nesten 80 % av dette er for dyrehold [3]
+            </li>
+            <li>⅓ av de globale klimagassutslippene [2]</li>
+          </ul>
+        </li>
+        <li class="main-bullet">
+          Ekstremvær og tørke som følge av klimaendringer utgjør en økende
+          utfordring for matprodusenter verden over. [1]
+        </li>
+        <li class="main-bullet">
+          Matproduksjon kan føre til store klima- og miljøutfordringer, som
+          forurensing til luft, vann og jord, jordforringelse, tap av biologisk
+          mangfold og ødeleggelse av skog. [1]
+        </li>
+        <li class="main-bullet">
+          Bruk av plantevernmidler og fremvekst av antibiotikaresistente
+          mikroorganismer kan ha negative helse- og miljøeffekter. [1]
+        </li>
+        <li class="main-bullet">
+          Utfordringer med dyrevern og arbeidsforhold i en global bransje.
+        </li>
+        <li class="main-bullet">
+          Matbransjen produserer store mengder avfall, og ikke alt er
+          resirkulerbart.
+        </li>
+      </ul>
+
+      <img class="list-img" src="assets/img/earth.png" alt="earth" />
+    </div>
+
+    <div class="paragraph-with-title wide">
+      <p>
+        For å etablere bærekraftige matsystemer er det viktig at negative
+        klima-, miljø- og økologiske effekter av matproduksjonen begrenses mest
+        mulig.[1] Det finnes ingen enkel løsning, men det er mange måter
+        enkeltpersoner kan bidra for å redusere utslipp og leve mer bærekraftig.
+        Vi som forbrukere har makt og påvirker i stor grad hvilke produkter som
+        blir produsert. Dessverre er det mange som oppfatter at det er for mange
+        alternativer og at det er vanskelig å vite hva som er “det riktige
+        valget”. Det er essensielt at vi er klare over fotavtrykkene bak varene
+        vi kjøper slik at vi kan styre matbransjen i riktig retning, og det er
+        her cFood kommer inn.
+      </p>
+    </div>
+
+    <button onclick="scollToTop()" class="button scroll-to-top-btn">
+      <img src="assets/img/arrow-down.png" alt="arrow up" />
+    </button>
+
+    <footer>
+      <a href="privacy.html" class="button white-btn">Personvern & vilkår</a>
+      <div class="company-name"><span>&#169; </span> cFood 2020</div>
+      <a class="button white-btn">
+        Kilder <img src="assets/img/sources-black.png" alt="" />
+      </a>
+    </footer>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/bg-img-layout.js"></script>
+    <script src="assets/js/scroll-to-top.js"></script>
+  </body>
+</html>

@@ -15,6 +15,7 @@ body {
   background-color: #ffffff;
 }
 
-.content {
-  min-height: 80vh;
+#scroll {
+  position: absolute;
+  transform: translateY(-10vh);
 }

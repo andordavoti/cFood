@@ -14,8 +14,7 @@ To achieve a sticky footer you need to use the div container with class content 
 ## Colors:
 
 - White: #fff
-- White alternative: #EAEAE6
-- Light green: #14DCB1
+- Light green: #B0D6CF
 - Dark green: #2f514b
 - Dark grey/green: #6A8989
 - Black (text): #222224

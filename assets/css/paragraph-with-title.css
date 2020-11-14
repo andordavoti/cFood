@@ -1,0 +1,27 @@
+.paragraph-with-title {
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.wide {
+  max-width: 900px;
+}
+
+.paragraph-with-title h1 {
+  text-align: center;
+  color: #2f514b;
+  margin-bottom: 25px;
+}
+
+.paragraph-with-title p {
+  line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph-with-title {
+    padding: 25px;
+  }
+}

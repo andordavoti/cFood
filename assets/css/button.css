@@ -1,0 +1,60 @@
+.button {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.white-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+
+.white-btn img {
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+}
+
+.scroll-to-top-btn {
+  opacity: 0;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 2.5vh;
+  right: 50px;
+  z-index: 10;
+  border: 3px solid #fff;
+  background-color: #2f514b;
+  cursor: pointer;
+}
+
+.scroll-to-top-btn img {
+  width: 30px;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-to-top-btn {
+    display: none; /* hide on mobile devices, it's redundant since it's a built in feature on mobile devices and it would cover up content */
+  }
+}

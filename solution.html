@@ -6,11 +6,11 @@
     <title>cFood</title>
     <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="stylesheet" href="assets/css/nav.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
     <noscript>
-      <link rel="stylesheet" href="assets/css/noscript.css" />
+      <link rel="stylesheet" href="assets/css/noscript-nav.css" />
     </noscript>
     <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/bg-img-layout.css" />
     <link rel="stylesheet" href="assets/css/button.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
@@ -29,7 +29,7 @@
           <a href="challenge.html">Utfordring</a>
         </div>
         <div class="link">
-          <a href="solution.html">Løsning</a>
+          <a class="active" href="solution.html">Løsning</a>
         </div>
 
         <div class="link">
@@ -44,6 +44,18 @@
       </div>
     </nav>
 
+    <div class="fs-bg-container solution">
+      <div class="fs-bg-img"></div>
+      <h2 class="fs-bg-title">
+        Med en enkel og oversiktlig app gir cFood informasjon om matvarers
+        fotavtrykk, og hva du kan gjøre for å redusere ditt utslipp.
+      </h2>
+      <a href="#" class="fs-bg-scroll-down">
+        <p>Scroll ned</p>
+        <img src="assets/img/arrow-down.png" alt="arrow down" />
+      </a>
+    </div>
+
     <button onclick="scollToTop()" class="button scroll-to-top-btn">
       <img src="assets/img/arrow-down.png" alt="arrow up" />
     </button>
@@ -56,6 +68,7 @@
       </a>
     </footer>
     <script src="assets/js/nav.js"></script>
+    <script src="assets/js/bg-img-layout.js"></script>
     <script src="assets/js/scroll-to-top.js"></script>
   </body>
 </html>

@@ -1,9 +1,20 @@
 footer {
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #2f514b;
   color: #fff;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .company-name {
+    padding: 20px;
+  }
 }

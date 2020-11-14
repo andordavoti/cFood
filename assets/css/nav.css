@@ -1,22 +1,46 @@
 nav {
   padding-right: 20px;
   height: 10vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #2f514b;
+  color: #fff;
+  position: fixed;
+  z-index: 3;
 }
 
-nav img {
+nav .nav-logo {
   margin-left: 20px;
   height: 8vh;
-  z-index: 2;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+nav .links .link img {
+  height: 3vh;
+  width: 3vh;
+}
+
+nav a {
+  z-index: 3;
+}
+
+nav .nav-logo:hover {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
 }
 
 nav .links {
   max-width: 400px;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -30,8 +54,6 @@ nav .link a {
 nav .link a {
   text-align: center;
   margin: 0 auto;
-  padding: 0;
-  transition: all 0.4s ease-in-out;
   position: relative;
 }
 
@@ -43,8 +65,10 @@ nav .link a:after {
   width: 0px;
   height: 5px;
   margin: 5px 0 0;
-  transition: all ease-in-out;
-  transition-duration: 0.4s;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   opacity: 0;
   background-color: #fff;
 }
@@ -52,6 +76,7 @@ nav .link a:after {
 nav .link a:before {
   left: 50%;
 }
+
 nav .link a:after {
   right: 50%;
 }
@@ -61,13 +86,17 @@ nav .link:hover {
 }
 
 nav .link:hover a:before,
-nav .link:hover a:after {
+nav .link:hover a:after,
+nav .link .active:before,
+nav .link .active:after {
   width: 100%;
   opacity: 1;
 }
 
 nav .link:hover a:before,
-nav .link:hover a:after {
+nav .link:hover a:after,
+nav .link .active:before,
+nav .link .active:after {
   width: 50%;
 }
 
@@ -76,12 +105,8 @@ nav .link:hover a:after {
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    position: relative;
-  }
-
   nav .links {
-    position: absolute;
+    position: fixed;
     top: 0;
     background: #2f514b;
     height: 100vh;
@@ -90,16 +115,24 @@ nav .link:hover a:after {
     flex-direction: column;
     clip-path: circle(100px at 90% -10%);
     -webkit-clip-path: circle(100px at 90% -10%);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
     transition: all 1s ease-out;
     pointer-events: none;
-
     align-items: center;
     justify-content: space-evenly;
+    z-index: 2;
   }
   nav .open {
     clip-path: circle(150vh at 90% -10%);
     -webkit-clip-path: circle(150vh at 90% -10%);
     pointer-events: all;
+  }
+
+  nav .links .link img {
+    height: 7vh;
+    width: 7vh;
   }
 
   nav .links .link {
@@ -110,16 +143,22 @@ nav .link:hover a:after {
     font-size: 1.75rem;
   }
   nav .links .link:nth-child(1) {
+    -webkit-transition: all 0.5s ease-in 0.2s;
+    -moz-transition: all 0.5s ease-in 0.2s;
+    -o-transition: all 0.5s ease-in 0.2s;
     transition: all 0.5s ease-in 0.2s;
   }
   nav .links .link:nth-child(2) {
+    -webkit-transition: all 0.5s ease-in 0.4s;
+    -moz-transition: all 0.5s ease-in 0.4s;
+    -o-transition: all 0.5s ease-in 0.4s;
     transition: all 0.5s ease-in 0.4s;
   }
   nav .links .link:nth-child(3) {
+    -webkit-transition: all 0.5s ease-in 0.6s;
+    -moz-transition: all 0.5s ease-in 0.6s;
+    -o-transition: all 0.5s ease-in 0.6s;
     transition: all 0.5s ease-in 0.6s;
-  }
-  nav .links .link:nth-child(4) {
-    transition: all 0.5s ease-in 0.8s;
   }
 
   nav .links .fade {
@@ -131,6 +170,9 @@ nav .link:hover a:after {
     position: absolute;
     right: 5%;
     top: 50%;
+    -webkit-transform: translate(-5%, -50%);
+    -moz-transform: translate(-5%, -50%);
+    -o-transform: translate(-5%, -50%);
     transform: translate(-5%, -50%);
     z-index: 2;
     width: 60px;

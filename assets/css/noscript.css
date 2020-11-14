@@ -11,11 +11,11 @@
 /* NAV */
 @media screen and (max-width: 768px) {
   nav {
-    position: static;
     padding-right: 0;
   }
 
-  nav img {
+  nav img,
+  .hamburger {
     display: none;
   }
 
@@ -27,6 +27,9 @@
     width: 100%;
     clip-path: none;
     -webkit-clip-path: none;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
     transition: all 1s ease-out;
     pointer-events: all;
     flex-direction: row;
@@ -38,6 +41,7 @@
     z-index: 2;
     opacity: 1;
   }
+
   nav .links .link a {
     font-size: 1rem;
   }
