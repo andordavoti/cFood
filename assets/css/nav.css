@@ -11,7 +11,7 @@ nav {
   z-index: 3;
 }
 
-nav img {
+nav .nav-logo {
   margin-left: 20px;
   height: 8vh;
   -webkit-transition: all 0.4s ease-in-out;
@@ -20,11 +20,16 @@ nav img {
   transition: all 0.4s ease-in-out;
 }
 
+nav .links .link img {
+  height: 3vh;
+  width: 3vh;
+}
+
 nav a {
   z-index: 3;
 }
 
-nav img:hover {
+nav .nav-logo:hover {
   -webkit-transform: translateX(10px);
   -moz-transform: translateX(10px);
   -o-transform: translateX(10px);
@@ -35,6 +40,7 @@ nav .links {
   max-width: 400px;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -122,6 +128,11 @@ nav .link .active:after {
     clip-path: circle(150vh at 90% -10%);
     -webkit-clip-path: circle(150vh at 90% -10%);
     pointer-events: all;
+  }
+
+  nav .links .link img {
+    height: 7vh;
+    width: 7vh;
   }
 
   nav .links .link {
