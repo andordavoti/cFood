@@ -23,7 +23,6 @@
   text-align: left;
   font-size: 18px;
   font-weight: bold;
-  transition: 0.4s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -37,10 +36,15 @@
   font-weight: bold;
   float: right;
   margin-left: 5px;
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .active:after {
-  content: "\2212";
+  transform: rotate(45deg);
 }
 
 .panel {
