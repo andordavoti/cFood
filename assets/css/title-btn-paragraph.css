@@ -1,35 +1,32 @@
-.title-btn-paragraph {
+.title-btn-paragraph-container {
   padding: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 700px;
+  text-align: center;
 }
 
-.wide {
-  max-width: 900px;
-}
-
-.title-btn-paragraph h1 {
+.title-btn-paragraph-container h1 {
   text-align: center;
   color: #2f514b;
   margin-bottom: 25px;
 }
 
-.title-btn-paragraph p {
+.title-btn-paragraph-container p {
   line-height: 30px;
+  text-align: left;
 }
 
-.title-btn-paragraph .button {
+.title-btn-paragraph-container .button {
   margin-top: 25px;
-  max-width: 50%;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
-  .title-btn-paragraph {
+  .title-btn-paragraph-container {
     padding: 25px;
   }
 }
