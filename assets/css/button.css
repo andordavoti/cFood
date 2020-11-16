@@ -46,6 +46,7 @@
   border: 3px solid #fff;
   background-color: #2f514b;
   cursor: pointer;
+  outline: none;
 }
 
 .scroll-to-top-btn img {
