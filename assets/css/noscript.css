@@ -14,9 +14,14 @@
     padding-right: 0;
   }
 
-  nav img,
+  nav .nav-logo,
   .hamburger {
     display: none;
+  }
+
+  nav .links .link img {
+    height: 3vh;
+    width: 3vh;
   }
 
   nav .links {
