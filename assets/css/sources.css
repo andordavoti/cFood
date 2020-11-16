@@ -1,69 +1,73 @@
-* {
-    box-sizing: border-box;
+.sources-container {
+  display: flex;
+  padding-top: 10vh;
+  justify-content: flex-end;
+}
+
+.sources-nav {
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  width: 30vw;
+  padding: 25px;
+}
+
+.sources-nav .documentation-title {
+  padding-top: 25px;
+}
+
+.sources-nav li {
+  padding-top: 10px;
+  margin-left: 25px;
+}
+
+.sources-nav li a {
+  color: #000;
+}
+
+.sources-links {
+  width: 70vw;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.source-type-title {
+  padding-top: 25px;
+}
+
+.source-container {
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.source-container .source-description {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.source-container .source-link {
+  color: darkblue;
+}
+
+.sources-nav li a:hover,
+.source-container .source-link:hover {
+  color: grey;
+}
+
+@media screen and (max-width: 850px) {
+  .sources-container {
+    flex-direction: column;
+  }
+  .sources-nav {
+    position: static;
+    width: 100vw;
+    padding-bottom: 0;
   }
 
-.content {
-    color:#222224;
-}  
-
-.rightbox {   
-    float: left;
-    width: 75%;
-    padding-left: 20px;
-    padding: 20px;
-    background-color:white;
+  .sources-links {
+    width: 100vw;
+    padding: 25px;
+    padding-top: 0;
   }
-  
-.leftbox {
-    float: left;
-    width: 25%;
-    background-color:white;
-    padding: 20px;  
-  }
-
-  a {
-      color: inherit;
-      font-size: 17px; 
-    }
-  a:hover {
-      color: gray;
-      font-size: 17.5px;
-  } 
-
-  .navigationsources{
-    padding: 20px;
-    line-height:150%;
-  }
-
-  /* Add a card effect for articles */
-.sourceboxoutline {
-    background-color:white;
-    padding: 10px;
-    margin-top: 10px;
-  }
-
-  .sourceboxinline {
-    background-color:white;
-    padding: 10px;
-    margin-top: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-
-  .sourcetext {
-    padding:10px;
-    background-color:white;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  @media screen and (max-width: 800px) {
-    .leftbox, .rightbox {   
-      width: 100%;
-      padding: 0;
-    }
-  }
+}
