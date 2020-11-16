@@ -15,7 +15,11 @@ body {
   background-color: #ffffff;
 }
 
-#scroll {
+a {
+  text-decoration: none;
+}
+
+.scroll {
   position: absolute;
   transform: translateY(-10vh);
 }
