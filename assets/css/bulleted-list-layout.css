@@ -18,12 +18,12 @@
 .bulleted-list-w-img-container .list-img {
   height: 50%;
   width: 50%;
-  max-height: 350px;
-  max-width: 350px;
+  max-height: 300px;
+  max-width: 300px;
 }
 
 .bulleted-list-w-img-container .main-list .main-bullet {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .bulleted-list-w-img-container .main-list .top-bullet {
