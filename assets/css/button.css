@@ -17,7 +17,6 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  text-decoration: none;
   text-align: center;
   font-weight: bold;
   font-size: 16px;
@@ -28,10 +27,25 @@
   border: none;
 }
 
-.white-btn img {
-  height: 16px;
+.white-btn img,
+.green-btn img {
   width: 16px;
   margin-left: 5px;
+}
+
+.green-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: #2f514b;
+  color: #fff;
+  border: none;
 }
 
 .scroll-to-top-btn {
