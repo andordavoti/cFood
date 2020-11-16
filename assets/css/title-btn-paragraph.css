@@ -1,4 +1,4 @@
-.paragraph-with-title {
+.title-btn-paragraph {
   padding: 50px;
   display: block;
   margin-left: auto;
@@ -10,18 +10,26 @@
   max-width: 900px;
 }
 
-.paragraph-with-title h1 {
+.title-btn-paragraph h1 {
   text-align: center;
   color: #2f514b;
   margin-bottom: 25px;
 }
 
-.paragraph-with-title p {
+.title-btn-paragraph p {
   line-height: 30px;
 }
 
+.title-btn-paragraph .button {
+  margin-top: 25px;
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 768px) {
-  .paragraph-with-title {
+  .title-btn-paragraph {
     padding: 25px;
   }
 }
