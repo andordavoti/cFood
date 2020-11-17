@@ -4,11 +4,11 @@
 }
 
 .challenge .fs-bg-img {
-  background-image: url("../img/challenge-bg.jpg");
+  background-image: url("../img/bg/challenge-bg.jpg");
 }
 
 .solution .fs-bg-img {
-  background-image: url("../img/solution-bg.jpg");
+  background-image: url("../img/bg/solution-bg.jpg");
 }
 
 .challenge .fs-bg-title {
