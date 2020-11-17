@@ -24,9 +24,17 @@ a {
   transform: translateY(-10vh);
 }
 
-.full-height {
+.full-height-nav,
+.full-height-nav-footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.full-height-nav {
   min-height: 90vh;
+}
+
+.full-height-nav-footer {
+  min-height: 80vh;
 }
