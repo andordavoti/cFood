@@ -23,3 +23,10 @@ a {
   position: absolute;
   transform: translateY(-10vh);
 }
+
+.full-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 90vh;
+}
