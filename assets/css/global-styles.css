@@ -17,7 +17,6 @@ body {
 }
 
 /* LINK STYLES FOR SOURCES AND DIRECT LINKS */
-
 a {
   text-decoration: none;
 }
@@ -36,6 +35,13 @@ a {
 }
 
 .link-black:hover {
+  color: #2f514b;
+  font-weight: bold;
+}
+
+/* STYLE FOR TEXT ELEMENTS */
+
+.weighted-text {
   color: #2f514b;
   font-weight: bold;
 }
