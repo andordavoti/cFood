@@ -11,6 +11,10 @@
   background-image: url("../img/bg/solution-bg.jpg");
 }
 
+.app .fs-bg-img {
+  background-image: url("../img/bg/app-bg-1.jpg");
+}
+
 .challenge .fs-bg-title {
   max-width: 675px;
 }
