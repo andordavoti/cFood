@@ -12,6 +12,11 @@
   max-width: 400px;
 }
 
+.img-text-row-container .mockup {
+  width: 60%;
+  max-width: 350px;
+}
+
 .img-text-row-container .text h1 {
   color: #2f514b;
   margin-bottom: 25px;
@@ -46,6 +51,11 @@
     width: 60%;
     padding: 0;
     margin-bottom: 0;
+  }
+
+  .img-text-row-container .mockup {
+    width: 80%;
+    max-width: 450px;
   }
 
   .img-text-row-container .button {
