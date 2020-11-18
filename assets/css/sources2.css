@@ -1,0 +1,126 @@
+.source-container {
+  text-align: center;
+  padding: 20px;
+  padding-top: 10vh;
+}
+
+.source-container h2 {
+  padding: 30px;
+  text-align: center;
+  color: #2f514b;
+}
+
+.sources-drop-down-content {
+  padding: 5px;
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion {
+  outline: 0;
+  background-color: white;
+  color: #2f514b;
+  cursor: pointer;
+  padding: 18px;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.accordion:hover {
+  background-color: whitesmoke;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #2f514b;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.active:after {
+  transform: rotate(45deg);
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  background-color: whitesmoke;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.panel-open {
+  max-height: inherit;
+  padding: 18px 18px;
+}
+
+.panel-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 18px 0px;
+  border-bottom: 1px solid #2f514b;
+}
+
+.col-80 {
+  width: 80%;
+}
+
+.col-80 p {
+  font-size: 14px;
+  color: #222224;
+}
+
+.weighted {
+  font-weight: bold;
+}
+
+.col-80 img {
+  width: 12px;
+  height: 12px;
+}
+
+.col-80 a {
+  text-decoration: underline;
+  color: #2f514b;
+}
+
+.col-80 a:hover {
+  font-weight: bold;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-20 p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.col-20 img {
+  width: 80%;
+  vertical-align: middle;
+}
