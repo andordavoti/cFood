@@ -16,8 +16,28 @@ body {
   background-color: #ffffff;
 }
 
+/* LINK STYLES FOR SOURCES AND DIRECT LINKS */
+
 a {
   text-decoration: none;
+}
+
+.link-white {
+  color: #fff;
+}
+
+.link-white:hover {
+  color: #2f514b;
+  font-weight: bold;
+}
+
+.link-black {
+  color: #222224;
+}
+
+.link-black:hover {
+  color: #2f514b;
+  font-weight: bold;
 }
 
 .scroll {
