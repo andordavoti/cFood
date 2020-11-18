@@ -1,5 +1,5 @@
 .img-text-row-container {
-  padding: 0 50px;
+  padding: 50px;
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
@@ -9,12 +9,7 @@
 
 .img-text-row-container img {
   width: 50%;
-  max-width: 300px;
-}
-
-.img-text-row-container .large-img {
-  width: 60%;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .img-text-row-container .text h1 {
@@ -29,24 +24,28 @@
   margin-right: auto;
 }
 
-.img-text-row-container .text p {
+.img-text-row-container .text p,
+.img-text-row-container .text .main-list {
   text-align: left;
   max-width: 650px;
   padding-bottom: 25px;
   line-height: 30px;
 }
 
+.img-text-row-container .text .bottom-0 {
+  padding-bottom: 0;
+}
+
 @media screen and (max-width: 1100px) {
   .img-text-row-container {
     flex-direction: column;
     padding: 25px;
-    padding-top: 0;
   }
 
   .img-text-row-container img {
+    width: 60%;
     padding: 0;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
 
   .img-text-row-container .button {
