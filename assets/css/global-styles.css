@@ -58,6 +58,7 @@ a {
 
 .full-height-nav-footer {
   min-height: 80vh;
+  border-top: 1px solid lightgray;
 }
 
 .top-0 {
