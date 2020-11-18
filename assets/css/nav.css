@@ -23,6 +23,8 @@ nav .nav-logo {
 nav .links .link img {
   height: 3vh;
   width: 3vh;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 nav a {
