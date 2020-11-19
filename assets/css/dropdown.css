@@ -3,7 +3,7 @@
   padding: 20px;
 }
 
-.faqdropdowncontent {
+.dropdown-container {
   padding: 25px;
   max-width: 600px;
   display: block;
@@ -22,8 +22,14 @@
   border: none;
   text-align: left;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+
+.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .accordion:hover {
@@ -48,6 +54,9 @@
 }
 
 .panel {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
   padding: 0 18px;
   max-height: 0;
   background-color: whitesmoke;
@@ -62,7 +71,7 @@
 }
 
 .panel-open {
-  max-height: 10vh;
+  max-height: 300vh;
   padding: 18px 18px;
 }
 
