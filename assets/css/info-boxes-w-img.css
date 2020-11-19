@@ -1,0 +1,34 @@
+.info-box-frame {
+  padding: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.info-box-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 900px;
+}
+
+.info-box-w-img {
+  border: 4px groove #B0D6CF;
+  padding: 10px;
+  width: 175px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.info-box-w-img img {
+  height: 60px;
+  width: 60px;
+}
+
+.info-box-w-img p {
+  text-align: center;
+  padding: 10px 4px;
+}
