@@ -3,8 +3,13 @@
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
+}
+
+.reverse {
+  flex-wrap: wrap-reverse;
 }
 
 .img-text-row-container img {
@@ -43,7 +48,6 @@
 
 @media screen and (max-width: 1100px) {
   .img-text-row-container {
-    flex-direction: column;
     padding: 25px;
   }
 
