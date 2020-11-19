@@ -1,20 +1,25 @@
 .info-box-frame {
-  padding: 50px;
+  padding-bottom: 25px;
   width: 100vw;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .info-box-row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
   max-width: 900px;
 }
 
 .info-box-w-img {
-  border: 4px groove #B0D6CF;
+  border: 3px groove #B0D6CF;
   padding: 10px;
+  margin: 1px;
   width: 175px;
   height: 175px;
   display: flex;
@@ -31,4 +36,9 @@
 .info-box-w-img p {
   text-align: center;
   padding: 10px 4px;
+}
+
+.info-box-w-img:hover {
+  background-color: #B0D6CF;
+  font-weight: bold;
 }

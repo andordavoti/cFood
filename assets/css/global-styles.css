@@ -38,7 +38,7 @@ a {
   font-weight: bold;
 }
 
-/* STYLE FOR TEXT ELEMENTS */
+/* BOLD STYLE FOR TEXT ELEMENTS */
 
 .weighted-text {
   color: #2f514b;
@@ -59,6 +59,7 @@ a {
 
 .full-height-nav {
   min-height: 90vh;
+  padding: 25px;
 }
 
 .full-height-nav-footer {
