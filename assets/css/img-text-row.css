@@ -1,8 +1,8 @@
 .img-text-row-container {
-  padding: 50px;
+  padding: 0px;
   width: 100vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -19,7 +19,7 @@
 
 .img-text-row-container .text h1 {
   color: #2f514b;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .img-text-row-container .text .button {
@@ -59,6 +59,6 @@
   }
 
   .img-text-row-container .button {
-    margin-bottom: 25px;
+    padding-bottom: 25px;
   }
 }
