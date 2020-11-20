@@ -1,5 +1,6 @@
 .drop-down-container {
   padding: 50px;
+  padding-top: 0px;
   max-width: 750px;
   display: block;
   margin-left: auto;
