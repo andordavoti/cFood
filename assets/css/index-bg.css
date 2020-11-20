@@ -1,0 +1,79 @@
+.index-bg .sections {
+  padding-top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.index-bg .scroll-down-faq-container {
+  height: 10vh;
+  background-color: #2f514b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-bg .scroll-down-faq-container .button {
+  display: inline-block;
+}
+
+.index-bg .section-challenge,
+.index-bg .section-solution,
+.index-bg .section-app {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-bg .section-challenge::after {
+  content: "";
+  position: absolute;
+  width: 33%;
+  height: 80%;
+  border-color: transparent #2f514b transparent transparent;
+  border-style: solid;
+  border-width: 4px;
+  transform: skewX(-20deg);
+}
+
+.index-bg .section-solution::after {
+  content: "";
+  position: absolute;
+  width: 33%;
+  height: 80%;
+  border-color: transparent #2f514b transparent transparent;
+  border-style: solid;
+  border-width: 4px;
+  transform: skewX(-20deg);
+}
+
+.index-bg .section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-bg .section-content img {
+  width: 50%;
+  height: 50%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.index-bg .section-content h1 {
+  padding: 25px;
+  color: #2f514b;
+}
+
+.index-bg .section-content p {
+  padding: 0 50px;
+  padding-bottom: 25px;
+}
