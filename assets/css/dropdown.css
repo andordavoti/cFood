@@ -1,14 +1,16 @@
-.faq {
-  text-align: center;
-  padding: 20px;
-}
-
-.dropdown-container {
-  padding: 25px;
+.drop-down-container {
+  padding: 50px;
   max-width: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
+}
+
+.drop-down-category-title {
+  padding-top: 50px;
+  text-align: center;
+  color: #2f514b;
 }
 
 .accordion {
@@ -17,7 +19,7 @@
   color: #222224;
   cursor: pointer;
   padding: 18px;
-  margin-top: 20px;
+  margin-top: 25px;
   width: 100%;
   border: none;
   text-align: left;
