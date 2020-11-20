@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 1100px) {
   .img-text-row-container {
-    padding: 25px;
+    padding: 50px;
   }
 
   .img-text-row-container img {
@@ -60,9 +60,5 @@
   .img-text-row-container .mockup {
     width: 80%;
     max-width: 450px;
-  }
-
-  .img-text-row-container .button {
-    padding-bottom: 25px;
   }
 }
