@@ -1,17 +1,9 @@
 .sources-section {
-  padding: 50px;
-  padding-top: 10vh;
+  padding-top: calc(10vh - 50px);
   min-height: 90vh;
 }
 
-.sources-drop-down-content {
-  max-width: 750px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.panel-container {
+.sources-content {
   width: 100%;
   display: flex;
   flex-direction: row;
