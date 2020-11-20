@@ -1,6 +1,6 @@
 .info-box-frame {
   padding-bottom: 25px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,14 +17,14 @@
 }
 
 .info-box-w-img {
-  border: 3px groove #B0D6CF;
+  border: 3px solid #b0d6cf;
   padding: 10px;
-  margin: 1px;
+  margin: 3px;
   width: 175px;
   height: 175px;
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -39,6 +39,5 @@
 }
 
 .info-box-w-img:hover {
-  background-color: #B0D6CF;
-  font-weight: bold;
+  background-color: #b0d6cf;
 }
