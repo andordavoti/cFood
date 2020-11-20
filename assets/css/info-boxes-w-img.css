@@ -3,6 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .info-box-row {
@@ -11,13 +13,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  min-width: 350px;
-  max-width: 900px;
+  width: 100%;
+  max-width: 910px;
 }
 
 .info-box-w-img {
   border: 3px solid #b0d6cf;
-  padding: 10px;
   margin: 3px;
   width: 175px;
   height: 175px;
