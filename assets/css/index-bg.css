@@ -1,6 +1,6 @@
 .index-bg .sections {
   padding-top: 10vh;
-  width: 100vw;
+  width: 100%;
   height: 90vh;
   display: flex;
   flex-direction: row;
@@ -85,9 +85,8 @@
 @media screen and (max-width: 1400px) {
   .index-bg .sections {
     padding-top: 10vh;
-    width: 100vw;
+    width: 100%;
     height: auto;
-
     flex-direction: column;
   }
 

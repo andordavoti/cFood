@@ -1,6 +1,6 @@
 .img-text-row-container {
   padding: 0px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
