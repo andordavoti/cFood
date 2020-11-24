@@ -32,6 +32,7 @@
 .index-bg .section-challenge,
 .index-bg .section-solution,
 .index-bg .section-app {
+  flex: 1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,4 +70,42 @@
   padding: 0 50px;
   padding-bottom: 25px;
   line-height: 30px;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1400px) {
+  .index-bg .sections {
+    padding-top: 10vh;
+    width: 100vw;
+    height: auto;
+
+    flex-direction: column;
+  }
+
+  .index-bg .section-challenge,
+  .index-bg .section-solution,
+  .index-bg .section-app {
+    transform: none;
+  }
+
+  .index-bg .section-content {
+    transform: none;
+  }
+
+  .index-bg .section-challenge {
+    border-right: none;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .index-bg .section-solution {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .index-bg .section-app {
+    border-left: none;
+    padding-bottom: 50px;
+    padding-top: 25px;
+  }
 }
