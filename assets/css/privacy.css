@@ -9,6 +9,7 @@
 .privacy-container h2 {
   padding-top: 30px;
   text-align: center;
+  color: #2f514b;
 }
 
 .privacy-container .text {
@@ -21,4 +22,5 @@
   font-weight: bold;
   padding-top: 25px;
   padding-bottom: 10px;
+  color: #2f514b;
 }
