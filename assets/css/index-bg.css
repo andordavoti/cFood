@@ -142,4 +142,11 @@
   .index-bg .section-content h1 {
     padding-top: 25px;
   }
+
+  .index-bg .section-challenge p,
+  .index-bg .section-solution p,
+  .index-bg .section-app p {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
