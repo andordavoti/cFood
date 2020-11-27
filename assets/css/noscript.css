@@ -19,12 +19,16 @@
     padding-right: 0;
   }
 
-  nav .nav-logo,
   .hamburger {
     display: none;
   }
 
-  nav .links .link img {
+  nav .nav-logo {
+    display: block;
+    margin-left: 5px;
+  }
+
+  nav .links img {
     height: 3vh;
     width: 3vh;
   }
@@ -40,7 +44,7 @@
     -webkit-transition: all 1s ease-out;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
-    transition: all 1s ease-out;
+    transition: none;
     pointer-events: all;
     flex-direction: row;
     align-items: center;
