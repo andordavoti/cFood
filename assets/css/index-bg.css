@@ -40,7 +40,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: skewX(-20deg);
 }
 
 .index-bg .section-challenge:hover,
@@ -53,7 +52,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: skewX(20deg);
 }
 
 .index-bg .section-content .section-text {
