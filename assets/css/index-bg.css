@@ -115,6 +115,15 @@
     flex-direction: row;
   }
 
+  .index-bg .section-solution p {
+    padding-left: 0;
+  }
+
+  .index-bg .section-challenge p,
+  .index-bg .section-app p {
+    padding-right: 0;
+  }
+
   .index-bg .section-content h1 {
     padding-top: 0;
   }
