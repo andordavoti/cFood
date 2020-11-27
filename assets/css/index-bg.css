@@ -1,6 +1,6 @@
 .index-bg .sections {
   padding-top: 10vh;
-  width: 100vw;
+  width: 100%;
   height: 90vh;
   display: flex;
   flex-direction: row;
@@ -40,20 +40,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: skewX(-20deg);
-}
-
-.index-bg .section-challenge:hover,
-.index-bg .section-solution:hover,
-.index-bg .section-app:hover {
-  background-color: whitesmoke;
 }
 
 .index-bg .section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: skewX(20deg);
 }
 
 .index-bg .section-content .section-text {
@@ -85,9 +77,8 @@
 @media screen and (max-width: 1400px) {
   .index-bg .sections {
     padding-top: 10vh;
-    width: 100vw;
+    width: 100%;
     height: auto;
-
     flex-direction: column;
   }
 

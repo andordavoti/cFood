@@ -1,6 +1,6 @@
 .img-text-row-container {
   padding: 0px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -40,6 +40,10 @@
   max-width: 650px;
   padding-bottom: 25px;
   line-height: 30px;
+}
+
+.p-top-50 {
+  padding-top: 50px;
 }
 
 .p-bottom-50 {
