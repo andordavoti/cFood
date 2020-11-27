@@ -42,12 +42,6 @@
   align-items: center;
 }
 
-.index-bg .section-challenge:hover,
-.index-bg .section-solution:hover,
-.index-bg .section-app:hover {
-  background-color: whitesmoke;
-}
-
 .index-bg .section-content {
   display: flex;
   flex-direction: column;
