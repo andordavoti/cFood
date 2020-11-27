@@ -42,6 +42,10 @@
   line-height: 30px;
 }
 
+.p-top-50 {
+  padding-top: 50px;
+}
+
 .p-bottom-50 {
   padding-bottom: 50px;
 }
