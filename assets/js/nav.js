@@ -9,5 +9,9 @@ hamburger.addEventListener("click", () => {
     link.classList.toggle("fade");
   });
 
-  hamburger.classList.toggle("open");
+  if (navLinks.classList.contains("open")) {
+    hamburger.src = "assets/img/icons/close.png";
+  } else {
+    hamburger.src = "assets/img/icons/menu.png";
+  }
 });
