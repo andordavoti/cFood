@@ -1,4 +1,4 @@
-const accordion = document.querySelectorAll(".accordion");
+const accordions = document.querySelectorAll(".accordion");
 const panel = document.querySelectorAll(".panel");
 
 const closeAllPanels = () => {
@@ -6,13 +6,13 @@ const closeAllPanels = () => {
     element.classList.remove("panel-open");
   });
 
-  accordion.forEach((element) => {
+  accordions.forEach((element) => {
     element.classList.remove("active");
   });
 };
 
-for (let i = 0; i < accordion.length; i++) {
-  accordion[i].addEventListener("click", function () {
+for (const accordion of accordions) {
+  accordion.addEventListener("click", function () {
     const currentPanel = this.nextElementSibling;
 
     if (currentPanel.className.includes("panel-open")) {
