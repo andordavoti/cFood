@@ -29,11 +29,11 @@ a {
   font-weight: bold;
 }
 
-.link-black {
-  color: #222224;
+.link-green {
+  color: #2f514b;
 }
 
-.link-black:hover {
+.link-green:hover {
   color: #2f514b;
   font-weight: bold;
 }
