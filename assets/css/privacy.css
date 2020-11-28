@@ -7,13 +7,14 @@
 }
 
 .privacy-container h2 {
-  padding-top: 30px;
-  text-align: center;
+  padding-top: 50px;
+  text-align: left;
   color: #2f514b;
 }
 
 .privacy-container .text {
-  padding: 30px;
+  padding: 50px;
+  padding-bottom: 50px;
   line-height: 30px;
   max-width: 700px;
 }
@@ -23,4 +24,15 @@
   padding-top: 25px;
   padding-bottom: 10px;
   color: #2f514b;
+}
+
+@media screen and (max-width: 768px) {
+  .privacy-container h2 {
+    padding-top: 25px;
+  }
+
+  .privacy-container .text {
+    padding: 25px;
+    padding-bottom: 25px;
+  }
 }
