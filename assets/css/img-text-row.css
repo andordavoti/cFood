@@ -84,10 +84,6 @@
     width: 80%;
     max-width: 450px;
   }
-
-  .m-top-25 {
-    margin-top: 25px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -95,27 +91,6 @@
     padding: 25px;
     padding-top: 0;
   }
-}
-
-.p-top-25 {
-  padding-top: 25px;
-}
-
-.p-top-50 {
-  padding-top: 50px;
-}
-
-.p-bottom-0,
-.img-text-row-container .text .p-bottom-0 {
-  padding-bottom: 0;
-}
-
-.p-bottom-25 {
-  padding-bottom: 25px;
-}
-
-.p-bottom-50 {
-  padding-bottom: 50px;
 }
 
 .text .arrow-container {

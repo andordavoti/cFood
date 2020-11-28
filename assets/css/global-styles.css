@@ -75,6 +75,31 @@ a {
   border-top: 1px solid lightgray;
 }
 
-.top-0 {
-  padding-top: 0;
+/* SPACING (always overwrite existing styles) */
+.m-top-0 {
+  margin-top: 0 !important;
+}
+
+.m-top-25 {
+  margin-top: 25px !important;
+}
+
+.p-top-25 {
+  padding-top: 25px !important;
+}
+
+.p-top-50 {
+  padding-top: 50px !important;
+}
+
+.p-bottom-0 {
+  padding-bottom: 0 !important;
+}
+
+.p-bottom-25 {
+  padding-bottom: 25px !important;
+}
+
+.p-bottom-50 {
+  padding-bottom: 50px !important;
 }
