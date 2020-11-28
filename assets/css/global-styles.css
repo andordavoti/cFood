@@ -38,6 +38,12 @@ a {
   font-weight: bold;
 }
 
+.box-links {
+  text-align: center;
+  font-style: italic;
+  padding-top: 10px;
+}
+
 /* BOLD STYLE FOR TEXT ELEMENTS */
 .weighted-text {
   color: #2f514b;
@@ -53,7 +59,7 @@ a {
 .full-height-nav-footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .faq-section {
