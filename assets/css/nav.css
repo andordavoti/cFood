@@ -12,12 +12,25 @@ nav {
 }
 
 nav .nav-logo {
+  display: flex;
+  align-items: center;
   margin-left: 20px;
   height: 8vh;
+
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+nav .nav-logo img {
+  height: 8vh;
+}
+
+nav .nav-logo h1 {
+  font-size: 2rem;
+  margin-left: 10px;
+  color: #fff;
 }
 
 nav .links img {
