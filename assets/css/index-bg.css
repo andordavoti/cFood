@@ -67,7 +67,7 @@
   padding-bottom: 25px;
   line-height: 30px;
   max-width: 500px;
-  text-align: center;
+  text-align: left;
 }
 
 .index-bg .section-content .button {
@@ -96,18 +96,18 @@
   .index-bg .section-challenge {
     border-right: none;
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
   }
 
   .index-bg .section-solution {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .index-bg .section-app {
     border-left: none;
     padding-bottom: 50px;
-    padding-top: 25px;
+    padding-top: 50px;
   }
 
   .index-bg .section-challenge .section-content,
