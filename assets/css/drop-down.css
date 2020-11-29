@@ -1,3 +1,6 @@
+/* DROPDOWN */
+
+/* Main Container */
 .drop-down-container {
   padding: 50px;
   padding-top: 0px;
@@ -8,12 +11,14 @@
   text-align: left;
 }
 
+/* Category title styles */
 .drop-down-category-title {
   padding-top: 50px;
   text-align: center;
   color: #2f514b;
 }
 
+/* Accordion styles */
 .accordion {
   outline: 0;
   background-color: white;
@@ -29,16 +34,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 25px;
 }
-
-.active {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
 .accordion:hover {
   background-color: whitesmoke;
 }
-
+.accordion:focus {
+  border: 5px solid #2f514b;
+}
 .accordion:after {
   content: "\002B";
   color: #42746c;
@@ -52,14 +53,10 @@
   transition: all 0.25s ease-in-out;
 }
 
-.active:after {
-  transform: rotate(45deg);
-}
-
+/* Panel styles */
 .panel {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-
   padding: 0 18px;
   max-height: 0;
   background-color: whitesmoke;
@@ -72,13 +69,21 @@
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-
 .panel-open {
-  max-height: 400vh;
+  max-height: 400vh; /* should expand to as big as it can be, to achieve an animation it needs to use the max-height property */
   padding: 18px 18px;
 }
-
 .panel p {
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 30px;
   color: #222224;
+}
+
+/* Active classes for when the accordion is open */
+.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.active:after {
+  transform: rotate(45deg);
 }

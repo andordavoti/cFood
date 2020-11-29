@@ -1,22 +1,19 @@
-.info-box-frame {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
-}
+/* INFO BOXES */
 
-.info-box-row {
+/* Main container */
+.info-box-container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 910px;
+  align-self: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1010px;
 }
 
+/* Info box container */
 .info-box-w-img {
   border: 3px solid #b0d6cf;
   margin: 3px;
@@ -28,57 +25,14 @@
   align-items: center;
 }
 
-.info-box-w-img-long {
-  border: 3px solid #b0d6cf;
-  margin: 3px;
-  width: 650px;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-}
-
-.info-box-w-img-long-left {
-  border: 0px;
-  margin: 0px;
-  padding-left: 20px;
-  width: 125px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.info-box-w-img-long-right {
-  border: 0px;
-  margin: 0px;
-  padding-left: 20px;
-  width: 525px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Info box image */
 .info-box-w-img img {
   height: 60px;
   width: 60px;
 }
 
-.info-box-w-img-long-left img {
-  height: 50px;
-  width: 50px;
-  padding-bottom: 5px;
-}
-
+/* Info box text */
 .info-box-w-img p {
   text-align: center;
   padding: 10px 4px;
-}
-
-.info-box-w-img:hover {
-  background-color: #b0d6cf;
 }

@@ -1,3 +1,6 @@
+/* FOOTER */
+
+/* Dekstop footer */
 footer {
   min-height: 10vh;
   display: flex;
@@ -8,6 +11,7 @@ footer {
   font-weight: bold;
 }
 
+/* Mobile footer */
 @media screen and (max-width: 768px) {
   footer {
     flex-direction: column;
