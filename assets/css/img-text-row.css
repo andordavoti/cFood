@@ -1,3 +1,6 @@
+/* IMAGE TEXT ROW */
+
+/* Main container */
 .img-text-row-container {
   padding: 0px;
   width: 100%;
@@ -12,49 +15,17 @@
   flex-wrap: wrap-reverse;
 }
 
+/* Image styles */
 .img-text-row-container img {
   width: 50%;
   max-width: 400px;
   padding-left: 12.5px;
   padding-right: 12.5px;
 }
-
 .img-text-row-container .mockup {
   width: 60%;
   max-width: 350px;
 }
-
-.img-text-row-container .text {
-  padding-left: 12.5px;
-  padding-right: 12.5px;
-}
-
-.img-text-row-container .text h1 {
-  color: #2f514b;
-  padding-bottom: 25px;
-  text-align: left;
-}
-
-.img-text-row-container .text h3 {
-  color: #2f514b;
-  padding-bottom: 10px;
-  text-align: left;
-}
-
-.img-text-row-container .text .button {
-  display: inline-block;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-text-row-container .text p {
-  text-align: left;
-  max-width: 650px;
-  padding-bottom: 25px;
-  line-height: 30px;
-}
-
 .img-text-row-container .small-img {
   width: 40%;
   max-width: 125px;
@@ -62,6 +33,41 @@
   padding-right: 12.5px;
 }
 
+/* Text container style */
+.img-text-row-container .text {
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+
+/* Title styles */
+.img-text-row-container .text h1 {
+  color: #2f514b;
+  padding-bottom: 25px;
+  text-align: left;
+}
+.img-text-row-container .text h3 {
+  color: #2f514b;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/* Paragraph style */
+.img-text-row-container .text p {
+  text-align: left;
+  max-width: 650px;
+  padding-bottom: 25px;
+  line-height: 30px;
+}
+
+/* Nested button style */
+.img-text-row-container .text .button {
+  display: inline-block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tablet layout */
 @media screen and (max-width: 1100px) {
   .img-text-row-container {
     padding: 50px;
@@ -86,6 +92,7 @@
   }
 }
 
+/* Mobile layout */
 @media screen and (max-width: 768px) {
   .img-text-row-container {
     padding: 25px;

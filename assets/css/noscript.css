@@ -1,19 +1,19 @@
-/* drop-down */
+/* NO SCRIPT STYLES */
+
+/* Drop down styles */
 .panel {
-  max-height: 300vh;
+  max-height: 300vh; /* open up the accordions when JS is disabled */
   padding: 18px 18px;
 }
-
 .accordion {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-
 .accordion:after {
-  content: "";
+  content: ""; /* Remove open/close icon */
 }
 
-/* Nav */
+/* Mobile navbar styles */
 @media screen and (max-width: 768px) {
   nav {
     padding-right: 0;
