@@ -1,17 +1,19 @@
+/* GLOBAL STYLES */
+
+/* Reset padding and margin for all HTML elements and standardize box sizing */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html,
-body {
-  scroll-behavior: smooth;
-  color: #222224;
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling for supported browsers */
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  color: #222224; /* set default color for all elements */
+  font-family: "Montserrat", sans-serif; /* set default font */
   background-color: #ffffff;
 }
 
@@ -42,34 +44,27 @@ a {
   padding-top: 10px;
 }
 
-.keyboard-selectible-text {
-  cursor: default;
-}
-
 /* BOLD STYLE FOR TEXT ELEMENTS */
 .weighted-text {
   color: #2f514b;
   font-weight: bold;
 }
-
 .weighted-text-black {
   font-weight: bold;
 }
 
+/* Offset the navbar height */
 .scroll {
   position: absolute;
   transform: translateY(-10vh);
 }
 
+/* SECTION STYLES */
 .full-height-nav,
 .full-height-nav-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.faq-section {
-  width: 100%;
 }
 
 .full-height-nav {
@@ -79,6 +74,10 @@ a {
 .full-height-nav-footer {
   min-height: 80vh;
   border-top: 1px solid lightgray;
+}
+
+.faq-section {
+  width: 100%;
 }
 
 /* SPACING (always overwrite existing styles) */
