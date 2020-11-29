@@ -42,6 +42,10 @@ a {
   padding-top: 10px;
 }
 
+.keyboard-selectible-text {
+  cursor: default;
+}
+
 /* BOLD STYLE FOR TEXT ELEMENTS */
 .weighted-text {
   color: #2f514b;
