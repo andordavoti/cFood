@@ -44,6 +44,11 @@ a {
   color: #2f514b;
 }
 
+.external-link-img {
+  width: 16px;
+  height: 16px;
+}
+
 .external-link:hover {
   font-weight: bold;
 }
