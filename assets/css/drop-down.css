@@ -30,6 +30,10 @@
   border-radius: 25px;
 }
 
+.accordion:focus {
+  border: 5px solid #2f514b;
+}
+
 .active {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
