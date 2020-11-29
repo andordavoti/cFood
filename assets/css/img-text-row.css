@@ -98,6 +98,10 @@
     padding: 25px;
     padding-top: 0;
   }
+
+  .img-text-row-container img {
+    margin-top: 25px;
+  }
 }
 
 .text .arrow-container {
