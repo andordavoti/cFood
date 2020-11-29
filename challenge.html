@@ -2,9 +2,19 @@
 <html lang="nb">
 
 <head>
+  <!-- Character set -->
   <meta charset="UTF-8" />
+
+  <!-- Scaling -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Website title -->
   <title>cFood</title>
+
+  <!-- Website favicon -->
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  <!-- CSS imports -->
   <link rel="stylesheet" href="assets/css/nav.css" />
   <link rel="stylesheet" href="assets/css/footer.css" />
   <link rel="stylesheet" href="assets/css/bg-img-layout.css" />
@@ -16,14 +26,16 @@
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
+
+  <!-- Import fonts from Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet" />
-  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 </head>
 
 <body>
+  <!-- NAV START -->
   <nav>
     <a href="index.html">
       <div class="nav-logo">
@@ -52,9 +64,11 @@
 
     <img class="hamburger" src="assets/img/icons/menu.png" alt="hamburger menu" />
   </nav>
+  <!-- NAV END -->
 
   <main>
-    <div class="fs-bg-container challenge">
+    <!-- FULLSCREEN BACKGROUND IMAGE SECTION START -->
+    <section class="fs-bg-container challenge">
       <div class="fs-bg-img"></div>
       <h2 class="fs-bg-title">
         «Tilgang til nok, trygg og sunn mat som produseres på en bærekraftig
@@ -65,9 +79,11 @@
         <p>Scroll ned</p>
         <img src="assets/img/icons/arrow-down-white.png" alt="arrow down" />
       </a>
-    </div>
+    </section>
+    <!-- FULLSCREEN BACKGROUND IMAGE SECTION END -->
 
-    <div id="content" class="scroll"></div>
+    <div id="content" class="scroll"></div> <!-- scroll to a navbar offset div -->
+    <!-- SECTION 1 START -->
     <section class="full-height-nav">
       <div class="title-btn-paragraph-container">
         <h1>Negative effekter av matproduksjon</h1>
@@ -146,8 +162,10 @@
           <img src="assets/img/icons/arrow-down-white.png" alt="arrow down" /></a>
       </div>
     </section>
+    <!-- SECTION 1 END -->
 
-    <div id="how-to-help" class="scroll"></div>
+    <div id="how-to-help" class="scroll"></div> <!-- scroll to a navbar offset div -->
+    <!-- SECTION 2 START -->
     <section class="full-height-nav-footer">
       <div class="img-text-row-container">
         <img src="assets/img/decorative/choice.png" alt="earth" />
@@ -202,12 +220,16 @@
         </div>
       </div>
     </section>
-
-    <button onclick="scollToTop()" class="button scroll-to-top-btn">
-      <img src="assets/img/icons/arrow-down-white.png" alt="arrow up" />
-    </button>
+    <!-- SECTION 2 END -->
   </main>
 
+  <!-- SCROLL TO TOP BUTTON START -->
+  <button onclick="scollToTop()" class="button scroll-to-top-btn">
+    <img src="assets/img/icons/arrow-down-white.png" alt="arrow up" />
+  </button>
+  <!-- SCROLL TO TOP BUTTON END -->
+
+  <!-- FOOTER START -->
   <footer>
     <a href="privacy.html" class="button white-btn">Personvern & vilkår</a>
     <div class="company-name"><span>&#169; </span> cFood 2020</div>
@@ -215,9 +237,13 @@
       Kilder <img src="assets/img/icons/sources-green.png" alt="" />
     </a>
   </footer>
+  <!-- FOOTER END -->
+
+  <!-- JAVASCRIPT IMPORTS START -->
   <script src="assets/js/nav.js"></script>
   <script src="assets/js/bg-img-layout.js"></script>
   <script src="assets/js/scroll-to-top.js"></script>
+  <!-- JAVASCRIPT IMPORTS END -->
 </body>
 
 </html>
