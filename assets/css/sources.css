@@ -41,14 +41,11 @@
 .col-20 p {
   font-size: 24px;
   font-weight: bold;
+  color: #2f514b;
   text-align: center;
 }
 
 .col-20 img {
   width: 80%;
   vertical-align: middle;
-}
-
-.weighted {
-  font-weight: bold;
 }
