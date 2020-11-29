@@ -2,9 +2,19 @@
 <html lang="nb">
 
 <head>
+  <!-- Character set -->
   <meta charset="UTF-8" />
+
+  <!-- Scaling -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Website title -->
   <title>cFood</title>
+
+  <!-- Website favicon -->
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  <!-- CSS imports -->
   <link rel="stylesheet" href="assets/css/nav.css" />
   <link rel="stylesheet" href="assets/css/footer.css" />
   <link rel="stylesheet" href="assets/css/footer.css" />
@@ -15,14 +25,16 @@
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
+
+  <!-- Import fonts from Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet" />
-  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 </head>
 
 <body>
+  <!-- NAV START -->
   <nav>
     <a href="index.html">
       <div class="nav-logo">
@@ -51,9 +63,11 @@
 
     <img class="hamburger" src="assets/img/icons/menu.png" alt="hamburger menu" />
   </nav>
+  <!-- NAV END -->
 
   <main>
-    <div class="index-bg">
+    <!-- INDEX BG SECTION START -->
+    <section class="index-bg">
       <div class="sections">
         <div class="section-challenge">
           <div class="section-content">
@@ -111,9 +125,11 @@
         <a href="#faq" class="button white-btn">Har du fortsatt spørsmål?
           <img src="assets/img/icons/arrow-down-green.png" alt="arrow down" /></a>
       </div>
-    </div>
+    </section>
+    <!-- INDEX BG SECTION END -->
 
-    <div id="faq" class="scroll"></div>
+    <div id="faq" class="scroll"></div> <!-- scroll to a navbar offset div -->
+    <!-- FAQ SECTION START -->
     <section class="faq-section">
       <div class="drop-down-container">
         <h2 class="drop-down-category-title">Ofte stilte spørsmål</h2>
@@ -240,12 +256,16 @@
         </div>
       </div>
     </section>
+    <!-- FAQ SECTION END -->
   </main>
 
+  <!-- SCROLL TO TOP BUTTON START -->
   <button onclick="scollToTop()" class="button scroll-to-top-btn">
     <img src="assets/img/icons/arrow-down-white.png" alt="arrow up" />
   </button>
+  <!-- SCROLL TO TOP BUTTON END -->
 
+  <!-- FOOTER START -->
   <footer>
     <a href="privacy.html" class="button white-btn">Personvern & vilkår</a>
     <div class="company-name"><span>&#169; </span> cFood 2020</div>
@@ -253,9 +273,13 @@
       Kilder <img src="assets/img/icons/sources-green.png" alt="" />
     </a>
   </footer>
+  <!-- FOOTER END -->
+
+  <!-- JAVASCRIPT IMPORTS START -->
   <script src="assets/js/nav.js"></script>
   <script src="assets/js/drop-down.js"></script>
   <script src="assets/js/scroll-to-top.js"></script>
+  <!-- JAVASCRIPT IMPORTS END -->
 </body>
 
 </html>
