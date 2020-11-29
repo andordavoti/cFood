@@ -33,3 +33,17 @@ accordionsEl.forEach((el) => {
     }
   });
 });
+
+// Get all the literature accordion element from the DOM
+const literatureAcordionEl = document.querySelector(".literature-acordion");
+// Get all the literature panel element from the DOM
+const literaturePanelEl = document.querySelector(".literature-panel");
+
+// Get the currect URL
+const currentUrl = window.location.href;
+
+// Auto expand the literature drop down if the user clicked on a literature source link
+if (currentUrl.includes("#literature")) {
+  literatureAcordionEl.classList.add("active");
+  literaturePanelEl.classList.add("panel-open");
+}
