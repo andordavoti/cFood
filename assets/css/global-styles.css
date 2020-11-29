@@ -22,16 +22,15 @@ a {
 
 .link-white {
   color: #fff;
-  font-style: italic;
 }
 
 .link-white:hover {
+  color: #2f514b;
   font-weight: bold;
 }
 
 .link-green {
   color: #2f514b;
-  font-style: italic;
 }
 
 .link-green:hover {
@@ -40,7 +39,6 @@ a {
 
 .box-links {
   text-align: center;
-  font-style: italic;
   padding-top: 10px;
 }
 
