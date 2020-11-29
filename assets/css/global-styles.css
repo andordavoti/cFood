@@ -37,6 +37,15 @@ a {
   font-weight: bold;
 }
 
+.external-link {
+  text-decoration: underline;
+  color: #2f514b;
+}
+
+.external-link:hover {
+  font-weight: bold;
+}
+
 .box-links {
   text-align: center;
   padding-top: 10px;
