@@ -42,7 +42,7 @@
 }
 .accordion:after {
   content: "\002B";
-  color: #42746c;
+  color: var(--dark-green);
   font-weight: bold;
   float: right;
   margin-left: 5px;
