@@ -70,7 +70,7 @@
   transition: all 0.25s ease-in-out;
 }
 .panel-open {
-  max-height: 400vh; /* should expand to as big as it can be, to achieve an animation it needs to use the max-height property */
+  max-height: 500vh; /* should expand to as big as it can be, to achieve an animation it needs to use the max-height property */
   padding: 18px 18px;
 }
 .panel p {
