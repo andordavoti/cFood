@@ -31,6 +31,7 @@
   text-align: left;
   font-size: 18px;
   font-weight: 600;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 25px;
 }
@@ -48,7 +49,6 @@
   margin-left: 5px;
 
   -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
@@ -65,7 +65,6 @@
   overflow: hidden;
 
   -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
@@ -85,6 +84,8 @@
   border-bottom-right-radius: 0;
 }
 .active:after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 

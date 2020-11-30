@@ -9,8 +9,15 @@
 /* Content container */
 .sources-content {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 18px 0px;
   border-bottom: 1px solid var(--dark-green);
@@ -58,8 +65,14 @@
 
 /* Button container for navigation buttons for non JS users */
 .no-script-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
   padding: 50px;
   padding-bottom: 0;

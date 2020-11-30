@@ -47,12 +47,20 @@
     clip-path: none;
     -webkit-clip-path: none;
     -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
     pointer-events: all;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
 
