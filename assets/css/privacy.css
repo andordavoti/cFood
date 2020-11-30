@@ -13,7 +13,7 @@
 .privacy-container h2 {
   padding-top: 50px;
   text-align: left;
-  color: #2f514b;
+  color: var(--dark-green);
 }
 
 /* Subtitle */
@@ -21,7 +21,7 @@
   font-weight: bold;
   padding-top: 25px;
   padding-bottom: 10px;
-  color: #2f514b;
+  color: var(--dark-green);
 }
 
 /* Text content */

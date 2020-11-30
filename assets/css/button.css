@@ -28,14 +28,14 @@
 
 /* White button */
 .white-btn {
-  background-color: #fff;
-  color: #2f514b;
+  background-color: var(--white);
+  color: var(--dark-green);
 }
 
 /* Green button */
 .green-btn {
-  background-color: #2f514b;
-  color: #fff;
+  background-color: var(--dark-green);
+  color: var(--white);
 }
 
 /* Nested image in the green or white button */
@@ -56,7 +56,7 @@
   right: 25px;
   z-index: 10;
   border: 3px solid #fff;
-  background-color: #2f514b;
+  background-color: var(--dark-green);
   cursor: pointer;
   outline: none;
 }

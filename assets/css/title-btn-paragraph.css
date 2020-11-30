@@ -13,7 +13,7 @@
 /* Title */
 .title-btn-paragraph-container h1 {
   text-align: center;
-  color: #2f514b;
+  color: var(--dark-green);
   margin-bottom: 25px;
   line-height: 35px;
 }

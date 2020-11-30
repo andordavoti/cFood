@@ -15,14 +15,14 @@
 .drop-down-category-title {
   padding-top: 50px;
   text-align: center;
-  color: #2f514b;
+  color: var(--dark-green);
 }
 
 /* Accordion styles */
 .accordion {
   outline: 0;
-  background-color: white;
-  color: #222224;
+  background-color: var(--white);
+  color: var(--black);
   cursor: pointer;
   padding: 18px;
   margin-top: 25px;
@@ -76,7 +76,7 @@
 .panel p {
   font-size: 15px;
   line-height: 30px;
-  color: #222224;
+  color: var(--black);
 }
 
 /* Active classes for when the accordion is open */

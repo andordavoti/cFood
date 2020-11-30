@@ -15,7 +15,7 @@
 /* Scroll down to FAQ container style  */
 .index-bg .scroll-down-faq-container {
   height: 10vh;
-  background-color: #2f514b;
+  background-color: var(--dark-green);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@
 }
 .index-bg .section-content h1 {
   padding: 25px;
-  color: #2f514b;
+  color: var(--dark-green);
 }
 .index-bg .section-content p {
   padding: 0 50px;

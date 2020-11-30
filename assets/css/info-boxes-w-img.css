@@ -15,7 +15,7 @@
 
 /* Info box container */
 .info-box-w-img {
-  border: 3px solid #b0d6cf;
+  border: 3px solid var(--light-green);
   margin: 3px;
   width: 175px;
   height: 175px;

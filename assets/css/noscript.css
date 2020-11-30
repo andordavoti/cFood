@@ -35,7 +35,7 @@
 
   nav .links {
     position: static;
-    background: #2f514b;
+    background: var(--dark-green);
     height: 10vh;
     max-width: 100%;
     width: 100%;

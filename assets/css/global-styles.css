@@ -1,5 +1,12 @@
 /* GLOBAL STYLES */
 
+:root {
+  --white: #fff;
+  --black: #222224;
+  --light-green: #b0d6cf;
+  --dark-green: #2f514b;
+}
+
 /* Reset padding and margin for all HTML elements and standardize box sizing */
 * {
   padding: 0;
@@ -12,9 +19,9 @@ html {
 }
 
 body {
-  color: #222224; /* set default color for all elements */
+  color: var(--black); /* set default color for all elements */
   font-family: "Montserrat", sans-serif; /* set default font */
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 /* LINK STYLES FOR SOURCES AND DIRECT LINKS */
@@ -23,25 +30,25 @@ a {
 }
 
 .link-white {
-  color: #fff;
+  color: var(--white);
 }
 
 .link-white:hover {
-  color: #2f514b;
+  color: var(--dark-green);
   font-weight: bold;
 }
 
 .link-black {
-  color: #222224;
+  color: var(--black);
 }
 
 .link-black:hover {
-  color: #2f514b;
+  color: var(--dark-green);
 }
 
 .external-link {
   text-decoration: underline;
-  color: #222224;
+  color: var(--black);
 }
 
 .external-link-img {
@@ -50,7 +57,7 @@ a {
 }
 
 .external-link:hover {
-  color: #2f514b;
+  color: var(--dark-green);
 }
 
 .box-links {
@@ -60,7 +67,7 @@ a {
 
 /* BOLD STYLE FOR TEXT ELEMENTS */
 .weighted-text {
-  color: #2f514b;
+  color: var(--dark-green);
   font-weight: bold;
 }
 .weighted-text-black {

@@ -8,8 +8,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #2f514b;
-  color: #fff;
+  background-color: var(--dark-green);
+  color: var(--white);
   position: fixed;
   z-index: 3;
 }
@@ -32,7 +32,7 @@ nav .nav-logo img {
 nav .nav-logo h1 {
   font-size: 2rem;
   margin-left: 10px;
-  color: #fff;
+  color: var(--white);
 }
 nav .nav-logo:hover {
   -webkit-transform: translateX(10px);
@@ -72,7 +72,7 @@ nav a {
   z-index: 3;
 }
 nav .link a {
-  color: #fff;
+  color: var(--white);
   font-weight: bold;
   font-size: 1.25rem;
   text-align: center;
@@ -90,7 +90,7 @@ nav .link a:after {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   opacity: 0;
-  background-color: #fff;
+  background-color: var(--white);
 }
 nav .link a:before {
   left: 50%;
@@ -123,7 +123,7 @@ nav .link .active:after {
   nav .links {
     position: fixed;
     top: 0;
-    background: #2f514b;
+    background: var(--dark-green);
     height: 100vh;
     max-width: 100%;
     width: 100%;
