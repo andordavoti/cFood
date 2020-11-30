@@ -47,10 +47,11 @@ nav .links .flag-icon {
   width: 3vh;
   border: 2px solid white;
   border-radius: 50%;
-  -webkit-transition: translateY 0.4s ease-in-out;
-  -moz-transition: translateY 0.4s ease-in-out;
-  -o-transition: translateY 0.4s ease-in-out;
-  transition: translateY 0.4s ease-in-out;
+
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 nav .links .flag-icon:hover {
   -webkit-transform: translateY(-5px);
