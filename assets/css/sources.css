@@ -16,6 +16,10 @@
   border-bottom: 1px solid var(--dark-green);
 }
 
+.last {
+  border-bottom: none;
+}
+
 /* Column 80% styles */
 .col-80 {
   width: 80%;
