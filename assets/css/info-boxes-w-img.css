@@ -35,6 +35,7 @@
 .info-box-w-img p {
   text-align: center;
   padding: 10px 4px;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 768px) {

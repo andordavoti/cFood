@@ -39,6 +39,39 @@
   transition: filter 0.4s ease-in-out;
 }
 
+/* Layer another image on top of the other one on the app page using absolute fill */
+.fs-bg-img-2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/bg/app-bg-2-no.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  animation: 0.4s 1.5s appReveal linear forwards;
+
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Animation to animate the app background */
+@keyframes appReveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* Styles for the title */
 .fs-bg-title {
   background-color: rgb(0, 0, 0);
@@ -92,39 +125,6 @@
 }
 .fs-bg-scroll-down img {
   height: 25px;
-}
-
-/* Layer another image on top of the other one on the app page using absolute fill */
-.fs-bg-img-2 {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/bg/app-bg-2-no.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(80%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  animation: 0.4s 1.5s appReveal linear forwards;
-
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
-}
-
-/* Animation to animate the app background */
-@keyframes appReveal {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 /* Center the title on mobile */

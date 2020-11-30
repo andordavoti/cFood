@@ -28,7 +28,12 @@
     margin-left: 5px;
   }
 
-  nav .links img {
+  nav .nav-logo h1 {
+    display: none;
+  }
+
+  nav .links .flag-icon {
+    opacity: 1;
     height: 3vh;
     width: 3vh;
   }
