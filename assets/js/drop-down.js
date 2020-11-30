@@ -39,11 +39,6 @@ const literatureAcordionEl = document.querySelector(".literature-acordion");
 // Get all the literature panel element from the DOM
 const literaturePanelEl = document.querySelector(".literature-panel");
 
-// Get all the tools accordion element from the DOM
-const toolsAcordionEl = document.querySelector(".tools-acordion");
-// Get all the tools panel element from the DOM
-const toolsPanelEl = document.querySelector(".tools-panel");
-
 // Get the currect URL
 const currentUrl = window.location.href;
 
@@ -51,7 +46,4 @@ const currentUrl = window.location.href;
 if (currentUrl.includes("#literature")) {
   literatureAcordionEl.classList.add("active");
   literaturePanelEl.classList.add("panel-open");
-} else if (currentUrl.includes("#tools")) {
-  toolsAcordionEl.classList.add("active");
-  toolsPanelEl.classList.add("panel-open");
 }
