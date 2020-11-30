@@ -1,5 +1,6 @@
 /* GLOBAL STYLES */
 
+/* Defining the color palette in CSS variables */
 :root {
   --white: #fff;
   --black: #222224;
