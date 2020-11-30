@@ -6,6 +6,9 @@ const navLinksEl = document.querySelector("nav .links");
 // Get all the nav link elements from the DOM as an array
 const linksEl = document.querySelectorAll("nav .links .link");
 
+// Get the flag icon from the DOM
+const flagIconEl = document.querySelector("nav .links .flag-icon");
+
 // Add an event listener function that runs every time the user clicks on the hamburger element
 hamburgerEl.addEventListener("click", () => {
   // Toggle the open class for the nav links element
@@ -15,6 +18,9 @@ hamburgerEl.addEventListener("click", () => {
   linksEl.forEach((linkEl) => {
     linkEl.classList.toggle("fade");
   });
+
+  // Fade in the flag icon
+  flagIconEl.classList.toggle("fade");
 
   // change the image of the hamburger menu
   if (navLinksEl.classList.contains("open")) {
