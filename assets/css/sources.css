@@ -56,7 +56,7 @@
   height: 12px;
 }
 
-/* TODO: comment this */
+/* Button container for navigation buttons for non JS users */
 .no-script-navigation {
   display: flex;
   justify-content: space-between;
