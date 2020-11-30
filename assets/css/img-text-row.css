@@ -19,8 +19,8 @@
 .img-text-row-container img {
   width: 50%;
   max-width: 400px;
-  padding-left: 12.5px;
-  padding-right: 12.5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .img-text-row-container .mockup {
   width: 60%;
@@ -29,14 +29,14 @@
 .img-text-row-container .small-img {
   width: 40%;
   max-width: 100px;
-  padding-left: 12.5px;
-  padding-right: 12.5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* Text container style */
 .img-text-row-container .text {
-  padding-left: 12.5px;
-  padding-right: 12.5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* Title styles */
@@ -84,6 +84,10 @@
     width: 60%;
     padding: 0;
     margin-bottom: 0;
+  }
+
+  .img-text-row-container .text {
+    padding: 0;
   }
 
   .img-text-row-container .mockup {
