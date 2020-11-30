@@ -43,7 +43,6 @@
 .fs-bg-img-2 {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/bg/app-bg-2-no.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,6 +59,12 @@
   -moz-transition: opacity 0.4s ease-in-out;
   -o-transition: opacity 0.4s ease-in-out;
   transition: opacity 0.4s ease-in-out;
+}
+.fs-bg-img-2-no {
+  background-image: url("../img/bg/app-bg-2-no.jpg");
+}
+.fs-bg-img-2-en {
+  background-image: url("../img/bg/app-bg-2-en.jpg");
 }
 
 /* Animation to animate the app background */
