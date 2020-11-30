@@ -47,17 +47,17 @@ a {
   color: var(--dark-green);
 }
 
-.external-link {
+.underline-link {
   text-decoration: underline;
   color: var(--black);
 }
 
-.external-link-img {
+.underline-link-img {
   width: 16px;
   height: 16px;
 }
 
-.external-link:hover {
+.underline-link:hover {
   color: var(--dark-green);
 }
 
