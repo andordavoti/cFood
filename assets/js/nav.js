@@ -22,10 +22,22 @@ hamburgerEl.addEventListener("click", () => {
   // Fade in the flag icon
   flagIconEl.classList.toggle("fade");
 
-  // change the image of the hamburger menu
-  if (navLinksEl.classList.contains("open")) {
-    hamburgerEl.src = "assets/img/icons/close.png";
+  // Get the currect URL
+  const currentUrl = window.location.href;
+
+  // check if it's the english or norwegian page
+  // change the image of the hamburger menu to the right image path
+  if (currentUrl.includes("/en/")) {
+    if (navLinksEl.classList.contains("open")) {
+      hamburgerEl.src = "../assets/img/icons/close.png";
+    } else {
+      hamburgerEl.src = "../assets/img/icons/menu.png";
+    }
   } else {
-    hamburgerEl.src = "assets/img/icons/menu.png";
+    if (navLinksEl.classList.contains("open")) {
+      hamburgerEl.src = "assets/img/icons/close.png";
+    } else {
+      hamburgerEl.src = "assets/img/icons/menu.png";
+    }
   }
 });
