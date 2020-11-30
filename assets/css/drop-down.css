@@ -87,3 +87,13 @@
 .active:after {
   transform: rotate(45deg);
 }
+
+@media screen and (max-width: 768px) {
+  .drop-down-container {
+    padding: 25px;
+    padding-top: 0px;
+  }
+  .drop-down-category-title {
+    padding-top: 25px;
+  }
+}
