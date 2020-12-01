@@ -2,7 +2,7 @@
 
 /* Drop down styles */
 .panel {
-  max-height: 300vh; /* open up the accordions when JS is disabled */
+  max-height: 5000vh; /* open up the accordions when JS is disabled */
   padding: 18px 18px;
 }
 .accordion {
