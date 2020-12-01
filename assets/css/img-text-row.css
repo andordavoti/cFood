@@ -92,6 +92,7 @@
     width: 60%;
     padding: 0;
     margin-bottom: 0;
+    margin-top: 25px;
   }
 
   .img-text-row-container .text {
@@ -109,10 +110,6 @@
   .img-text-row-container {
     padding: 25px;
     padding-top: 0;
-  }
-
-  .img-text-row-container img {
-    margin-top: 25px;
   }
 }
 
