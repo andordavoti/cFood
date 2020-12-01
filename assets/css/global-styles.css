@@ -67,6 +67,11 @@ a {
   padding-top: 10px;
 }
 
+.author-link {
+  font-style: italic;
+  font-size: 75%;
+}
+
 /* BOLD STYLE FOR TEXT ELEMENTS */
 .weighted-text {
   color: var(--dark-green);
