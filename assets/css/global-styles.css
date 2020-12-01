@@ -40,12 +40,13 @@ a {
   font-weight: bold;
 }
 
-.link-black {
-  color: var(--black);
+.link-green {
+  color: var(--dark-green);
 }
 
-.link-black:hover {
+.link-green:hover {
   color: var(--dark-green);
+  text-decoration: underline;
 }
 
 .underline-link {
@@ -65,6 +66,8 @@ a {
 .box-links {
   text-align: center;
   padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .author-link {
