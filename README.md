@@ -1,4 +1,4 @@
-# DAFE1200-final-project
+# cFood landing page
 
 ## Colors:
 
