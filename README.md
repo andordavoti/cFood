@@ -7,4 +7,4 @@
 - Dark green: #2f514b
 - Black (text): #222224
 
-Website URL: https://andordavoti.github.io/DAFE1200-final-project/
+Website URL: https://andordavoti.github.io/cFood/
