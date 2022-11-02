@@ -38,9 +38,6 @@
 .accordion:hover {
   background-color: whitesmoke;
 }
-.accordion:focus {
-  border: 5px solid #2f514b;
-}
 .accordion:after {
   content: "\002B";
   color: var(--dark-green);
